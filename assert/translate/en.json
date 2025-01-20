@@ -1,0 +1,316 @@
+{
+
+  "authPage": {
+    "signUP": "SIGNUP",
+    "logIN": "LOGIN"
+  },
+
+  "authPage2": {
+    "yourE-Mail": "Your E-mail",
+    "hintE-MailText": "Enter Your E-Mail",
+    "passWord": "PassWord",
+    "hintPassWordText":"Enter Your PassWord",
+    "forgotPassWord": "Forgot PassWord",
+    "logInWith":"Our Login With",
+    "next":"NEXT"
+  },
+
+  "homeScreen":{
+    "homeHeading":"Health Wellness",
+    "titleText1":"SelfHelp",
+    "descText1": "Meditattion,Breathing,Technique,Journalirst",
+    "titleText2": "Therapy Over Text",
+    "descText2": "Asynchronous chat therapy with your personal guide",
+    "group":"Gruop Support"
+  },
+
+  "groupSupport": {
+    "title1":"Your Story and Mine",
+    "desc1": "Share Your Experience with Your Partner.",
+    "title2":"Resource Hub",
+    "desc2":"Self Help articies and resource centers.",
+    "title3": "Journal",
+    "desc3": "Start your growth Journey capture moments, rellect on thoughts."
+  },
+
+  "selfResources": {
+    "heading": "Self Help Resources",
+    "title1": "Meditation",
+    "desc1":"Give you a sence of clam,peace and balance",
+    "title2": "Guided Breathing",
+    "desc2": "Promote effective and healthy breathing and breth control.",
+    "title3": "Calming Music",
+    "desc3": "Music to help release stress and relax your mind",
+    "title4": "Music for Relaxation & sleep",
+    "desc4": "Melodies to help you relx and drift off to sleep"
+  },
+
+  "meditation":{
+  "heading": "Meditation",
+    "title1": "5 Minutes Meditation",
+    "desc1": "Give you a sence of clam,peace and balance.",
+    "title2": "Meditation Music",
+    "desc2": "Promote effective and healthy breathing and breth control",
+    "title3": "Deep Relaxation",
+    "desc3": "Music to help release stress and relax your mind.",
+    "title4": "Meditation For Focus",
+    "desc4": "Melodies to help ypu relx and drift off to sleep.'"
+},
+
+  "videoTrack": {
+    "heading": "Choose a video track",
+    "title":"A Simple 5 Minutes",
+    "desc":"Meditation Routine foe Enhancing Relaxing and Optimism"
+  },
+
+  "musicTracker": {
+    "heading": "Choose a Music track",
+    "title":"A Simple 5 Minutes",
+    "desc":"Meditation Routine for Enhancing Relaxing and Optimism."
+  },
+
+  "therapyOverText": {
+    "heading":"Therapy Over text",
+    "hintText":"Type A Message......",
+    "buttonText":"SEND"
+  },
+
+  "yourStoryAndMine": {
+    "heading":"Your Story and Mine",
+    "title1": "Gracie.m",
+    "subtitle1": "Sometimes",
+    "days1": "3 weeks ago",
+    "poem1": "poem (1 minute read)",
+    "des1": "Lorem ipsum is simply dummy text of the printing and typeseting industry.Lorem lpsum has been the industry standard dummy taxt ever since the 1500s.when an unknown printer took a gallery of type and scrambleed it to make a type specimen book.it has survived not only five centuries.but also the leap into electrinic typestting, remainning essentially.",
+
+    "title2": "Helplessness",
+    "subtitle2": "Life Lately has been a rollecoaster",
+    "days2": "3 weeks ago",
+    "poem2": "Experiences (1 minute read)",
+    "des2": "Lorem ipsum is simply dummy text of the printing and typeseting industry.Lorem lpsum has been the industry standard dummy taxt ever since the 1500s.when an unknown printer took a gallery of type and scrambleed it to make a type specimen book.it has survived not only five centuries.but also the leap into electrinic typestting, remainning essentially.",
+
+    "title3": "Gracie.m",
+    "subtitle3": "Sometimes",
+    "days3": "3 weeks ago",
+    "poem3": "poem (1 minute read)",
+    "des3": "Lorem ipsum is simply dummy text of the printing and typeseting industry.Lorem lpsum has been the industry standard dummy taxt ever since the 1500s.when an unknown printer took a gallery of type and scrambleed it to make a type specimen book.it has survived not only five centuries.but also the leap into electrinic typestting, remainning essentially.",
+
+    "title4": "Gracie.m",
+    "subtitle4": "Sometimes",
+    "days4": "3 weeks ago",
+    "poem4": "poem (1 minute read)",
+    "des4": "Lorem ipsum is simply dummy text of the printing and typeseting industry.Lorem lpsum has been the industry standard dummy taxt ever since the 1500s.when an unknown printer took a gallery of type and scrambleed it to make a type specimen book.it has survived not only five centuries.but also the leap into electrinic typestting, remainning essentially."
+  },
+
+  "resourceHub": {
+    "heading": "Resource Hub",
+    "title1": "Library / Articles",
+    "dec1": "Articles on Mental Health",
+
+    "title2": "Resource Centers",
+    "dec2": "Contact Details of Service Providers"
+  },
+
+  "library": {
+    "heading": "Library",
+    "headingDetail": "Library",
+    "mainTitle1": "College",
+    "subTitle1": "Enjoy College life a pro",
+    "desc1": "Tips to keep i mind to combat the challenge of college life",
+    "subTitle2": "9 tips on how to be successful college",
+    "desc2": "9 tips to help you achieve your goals and additional tips for people.",
+    "subTitle3": "Top 10 study tips",
+    "desc3": "Tips for getting the most out od study",
+    "subTitle4": "How to study at home",
+    "desc4": "Tips to keep i mind to combat the challenge of college life",
+    "subTitle5": "Enjoy College life like a pro",
+    "desc5": "Tips to keep i mind to combat the challenge of college life",
+    "subTitle6": "Enjoy College life like a pro",
+    "desc6": "Tips to keep i mind to combat the challenge of college life",
+    "subTitle7": "Enjoy College life like a pro",
+    "desc7": "Tips to keep i mind to combat the challenge of college life",
+    "subTitle8": "Enjoy College life like a pro",
+    "desc8": "Tips to keep i mind to combat the challenge of college life",
+    "subTitle9": "Enjoy College life like a pro",
+    "desc9": "Tips to keep i mind to combat the challenge of college life",
+
+    "mainTitle2": "Work",
+    "subTitle10": "Enjoy College life a pro",
+    "desc10": "Tips to keep i mind to combat the challenge of college life",
+    "subTitle11": "9 tips on how to be successful college",
+    "desc11": "9 tips to help you achieve your goals and additional tips for people.",
+    "subTitle12": "Top 10 study tips",
+    "desc12": "Tips for getting the most out od study",
+    "subTitle13": "How to study at home",
+    "desc13": "Tips to keep i mind to combat the challenge of college life",
+    "subTitle14": "Enjoy College life like a pro",
+    "desc14": "Tips to keep i mind to combat the challenge of college life",
+    "subTitle15": "Enjoy College life like a pro",
+    "desc15": "Tips to keep i mind to combat the challenge of college life",
+    "subTitle16": "Enjoy College life like a pro",
+    "desc16": "Tips to keep i mind to combat the challenge of college life",
+    "subTitle17": "Enjoy College life like a pro",
+    "desc17": "Tips to keep i mind to combat the challenge of college life",
+    "subTitle18": "Enjoy College life like a pro",
+    "desc18": "Tips to keep i mind to combat the challenge of college life",
+
+
+
+    "mainTitle3": "Relationship",
+    "subTitle19": "Enjoy College life a pro",
+    "desc19": "Tips to keep i mind to combat the challenge of college life",
+    "subTitle20": "9 tips on how to be successful college",
+    "desc20": "9 tips to help you achieve your goals and additional tips for people.",
+    "subTitle21": "Top 10 study tips",
+    "desc21": "Tips for getting the most out od study",
+    "subTitle22": "How to study at home",
+    "desc22": "Tips to keep i mind to combat the challenge of college life",
+    "subTitle23": "Enjoy College life like a pro",
+    "desc23": "Tips to keep i mind to combat the challenge of college life",
+    "subTitle24": "Enjoy College life like a pro",
+    "desc24": "Tips to keep i mind to combat the challenge of college life",
+    "subTitle25": "Enjoy College life like a pro",
+    "desc25": "Tips to keep i mind to combat the challenge of college life",
+    "subTitle26": "Enjoy College life like a pro",
+    "desc26": "Tips to keep i mind to combat the challenge of college life",
+    "subTitle27": "Enjoy College life like a pro",
+    "desc27": "Tips to keep i mind to combat the challenge of college life",
+
+    "mainTitle4": "Personal Growth",
+    "subTitle28": "Enjoy College life a pro",
+    "desc28": "Tips to keep i mind to combat the challenge of college life",
+    "subTitle29": "9 tips on how to be successful college",
+    "desc29": "9 tips to help you achieve your goals and additional tips for people.",
+    "subTitle30": "Top 10 study tips",
+    "desc30": "Tips for getting the most out od study",
+    "subTitle31": "How to study at home",
+    "desc31": "Tips to keep i mind to combat the challenge of college life",
+    "subTitle32": "Enjoy College life like a pro",
+    "desc32": "Tips to keep i mind to combat the challenge of college life",
+    "subTitle33": "Enjoy College life like a pro",
+    "desc33": "Tips to keep i mind to combat the challenge of college life",
+    "subTitle34": "Enjoy College life like a pro",
+    "desc34": "Tips to keep i mind to combat the challenge of college life",
+    "subTitle35": "Enjoy College life like a pro",
+    "desc35": "Tips to keep i mind to combat the challenge of college life",
+    "subTitle36": "Enjoy College life like a pro",
+    "desc36": "Tips to keep i mind to combat the challenge of college life",
+
+
+    "mainTitle5": "Personal Growth",
+    "subTitle37": "Enjoy College life a pro",
+    "desc37": "Tips to keep i mind to combat the challenge of college life",
+    "subTitle38": "9 tips on how to be successful college",
+    "desc38": "9 tips to help you achieve your goals and additional tips for people.",
+    "subTitle39": "Top 10 study tips",
+    "desc39": "Tips for getting the most out od study",
+    "subTitle40": "How to study at home",
+    "desc40": "Tips to keep i mind to combat the challenge of college life",
+    "subTitle41": "Enjoy College life like a pro",
+    "desc41": "Tips to keep i mind to combat the challenge of college life",
+    "subTitle42": "Enjoy College life like a pro",
+    "desc42": "Tips to keep i mind to combat the challenge of college life",
+    "subTitle43": "Enjoy College life like a pro",
+    "desc43": "Tips to keep i mind to combat the challenge of college life",
+    "subTitle44": "Enjoy College life like a pro",
+    "desc44": "Tips to keep i mind to combat the challenge of college life",
+    "subTitle45": "Enjoy College life like a pro",
+    "desc45": "Tips to keep i mind to combat the challenge of college life"
+  },
+
+  "journal": {
+    "heading": "Journal",
+    "title1": "Your Journal Streak",
+    "title2": "Your Mood this week",
+    "title3": "Goal Progress",
+    "menu1": "New Journal Entry",
+    "menu2": "Mood Tracker",
+    "menu3": "Habit / Goal Tracker",
+    "menu4": "Anxiety Traker"
+  },
+
+  "addJournal": {
+    "heading": "Journal",
+    "headingAdd": "Add Journal",
+    "date": "2024 December 14",
+    "month": "Dec",
+
+    "date1": "1",
+    "day1": "Mon",
+
+    "date2": "2",
+    "day2": "Tue",
+
+    "date3": "3",
+    "day3": "Wed",
+
+    "date4": "4",
+    "day4": "Thu",
+
+    "date5": "5",
+    "day5": "Fri",
+
+    "date6": "6",
+    "day6": "Sat",
+
+    "date7": "7",
+    "day": "Sun",
+
+    "title": "My Journals",
+    "subTitle": "Your personal reflection.encrypted and secure",
+    "dec": "No Record Found",
+    "button": "Add a Journal",
+    "submit": "SUBMIT"
+
+  },
+
+  "moodTracker": {
+    "heading": "Mood Tracker",
+    "title": "How Are you Feeling Today?",
+    "moods1": "GOOD",
+    "moods2": "HAPPY",
+    "moods3": "MEH",
+    "moods4": "SAD",
+    "moods5": "ANGRY",
+    "moods6": "ANXIOUS",
+    "Calender": "Emotions Calender",
+    "message": "Mood Entry Updated Successfully!"
+
+  },
+
+  "goalTracker": {
+    "heading": "Goal Tracker",
+    "date": "2024 December 14",
+    "level":"Level up Your Goals",
+    "title": "Goals Completed today!",
+    "title1": "Today's Goals",
+    "subTitle":"No Entrie found for the selected date.Add a new goal.",
+    "title2":"Create a New Goal",
+    "hintText":"Goal Name",
+    "hintText2":"Select Minutes",
+    "button1": "CREATE NEW",
+    "button2": "Add a Goal"
+  },
+
+  "anxietyTracker": {
+    "heading":"Anxiety Tracker",
+    "date": "2024 December 14",
+    "title":"Anxiety Logs",
+    "subTitle": "Your personal reflection.encrypted and secure",
+    "record": "NO Record Found",
+    "button": "NEW RECORD"
+  },
+
+  "newRecord": {
+    "heading": "Anxiety Tracker",
+    "date": "2024 16 Dec",
+    "hintText1": "What happened",
+    "hintText2": "My thoughts as it happened",
+    "title": "Anxiety rating (1=low,10=High)",
+    "hintText3": "How did i cope with it?",
+    "hintText4": "What did i sya to my self?",
+    "title2": "Anxiety rating post coping(1=low,10=high)",
+    "button": "SUBMIT"
+
+  }
+}
