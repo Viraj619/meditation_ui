@@ -8,9 +8,9 @@ void main()async{
   WidgetsFlutterBinding.ensureInitialized();
   await EasyLocalization.ensureInitialized();
   runApp(EasyLocalization(
-      supportedLocales: [Locale('en')],
+      supportedLocales: [Locale('en'),Locale('hi')],
       path:'assert/translate',
-      fallbackLocale:Locale('en'),
+      fallbackLocale:Locale('en',),
       child: MainApp()));
 }
 class MainApp extends StatelessWidget{

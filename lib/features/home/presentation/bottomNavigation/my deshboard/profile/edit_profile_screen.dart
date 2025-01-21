@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:new_flutter_project/core/utils/helpers.dart';
 import 'package:new_flutter_project/core/utils/resources.dart';
@@ -11,7 +12,7 @@ class EditProfileScreen extends StatelessWidget{
         leading:IconButton(onPressed:(){
           Navigator.pop(context);
         }, icon: Icon(Icons.arrow_back_ios_rounded)),
-        title:Text("Edit Profile",style:mTextStyle16(),),
+        title:Text(tr("editProfile.heading"),style:mTextStyle16(),),
         centerTitle:true,
       ),
       body:Column(
@@ -22,13 +23,13 @@ class EditProfileScreen extends StatelessWidget{
               padding: const EdgeInsets.symmetric(horizontal: 10),
               child: TextField(
                 decoration:InputDecoration(
-                  hintText:"Enter Your name",
+                  hintText:tr("editProfile.editName"),
                   border:InputBorder.none
                 ),
               ),
             )),
           ),
-          SizedBox(height:10,),
+
           /// language
           Container(
             width:300,
@@ -40,9 +41,9 @@ class EditProfileScreen extends StatelessWidget{
             child: Center(
               child: Padding(
                 padding: const EdgeInsets.only(right:60),
-                child: DropdownMenu(dropdownMenuEntries:Resource.stateList.map((e)=>DropdownMenuEntry(value:e, label:e)).toList(),onSelected:(value){
+                child: DropdownMenu(dropdownMenuEntries:Resource.languageList.map((e)=>DropdownMenuEntry(value:e, label:e)).toList(),onSelected:(value){
                   print(value);
-                },hintText:"Select a State",inputDecorationTheme:InputDecorationTheme(
+                },hintText:tr("editProfile.language"),inputDecorationTheme:InputDecorationTheme(
                     border:InputBorder.none
                 ),),
               ),
@@ -61,8 +62,7 @@ class EditProfileScreen extends StatelessWidget{
               child: Padding(
                 padding: const EdgeInsets.only(right:60),
                 child: DropdownMenu(dropdownMenuEntries:Resource.stateList.map((e)=>DropdownMenuEntry(value:e, label:e)).toList(),onSelected:(value){
-                  print(value);
-                },hintText:"Select a State",inputDecorationTheme:InputDecorationTheme(
+                },hintText:tr("editProfile.state"),inputDecorationTheme:InputDecorationTheme(
                     border:InputBorder.none
                 ),),
               ),

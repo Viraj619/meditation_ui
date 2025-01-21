@@ -110,7 +110,11 @@
     "title2": "Resource Centers",
     "dec2": "Contact Details of Service Providers"
   },
-
+  "selectState": {
+    "heading":"Choose Your State",
+    "hintText":"Select a State",
+    "button":"SUBMIT"
+  },
   "library": {
     "heading": "Library",
     "headingDetail": "Library",
@@ -231,7 +235,6 @@
 
   "addJournal": {
     "heading": "Journal",
-    "headingAdd": "Add Journal",
     "date": "2024 December 14",
     "month": "Dec",
 
@@ -260,8 +263,11 @@
     "subTitle": "Your personal reflection.encrypted and secure",
     "dec": "No Record Found",
     "button": "Add a Journal",
-    "submit": "SUBMIT"
+    "submit": "SUBMIT",
 
+    "headingAdd": "Add Journal",
+    "hitText1": "Journal Title",
+    "hitText2": "Take a moment to reflection.Jot down our thoughts,emotions and experiences from the day."
   },
 
   "moodTracker": {
@@ -311,6 +317,97 @@
     "hintText4": "What did i sya to my self?",
     "title2": "Anxiety rating post coping(1=low,10=high)",
     "button": "SUBMIT"
+  },
+  "chatHistory":{
+  "heading": "Chat History",
+    "from": "From",
+    "to": "To",
+    "title1": "Feel Better in 15",
+    "title2": "Therapy Over Text",
+    "title3":"Tide Over Together",
+    "dec1": "No Records Found",
+    "dec2": "Therapy Over Text",
+    "date": "Date",
+    "month": "December 13, 2024",
+    "time": "12:00 AM-02:00 AM"
+},
+  "dashboard": {
+    "heading": "Dashboard",
+    "title1": "MY Profile",
+    "title2": "Message Center",
+    "title3": "Language",
+    "title4": "Privacy Policy",
+    "title5": "Frequently Asked Questions",
+    "title6": "Contact Support"
+  },
+  "profile": {
+    "heading": "My Profile",
+    "editProfile": "EDIT PROFILE",
+    "UserName": "UserName",
+    "age": "Age:22",
+    "Gender": "Female",
+    "PreferredLanguage": "Preferred Language:English",
+    "logout": "LOGOUT"
+  },
+  "editProfile": {
+    "heading": "Edit Profile",
+    "editName": "Enter Your name",
+    "language":"Select a State",
+    "state": "Select a State"
+  },
+  "messageCenter": {
+    "heading":"Message Center",
+    "title": "No Records Found"
+  },
+  "language": {
+    "heading": "Language",
+    "lan1":"English",
+    "lan2":"Hindi",
+    "lan3":"Gujrati",
+    "lan4":"Bengali",
+    "lan5":"French",
+    "lan6":"Marathi",
+    "lan7":"Spanish",
+    "lan8":"Tamil",
+    "lan9":"Telugu"
+  },
+  "state": {
+    "state1":"Andhra Pradesh",
+    "state2":"Arunachal Pradesh",
+    "state3":"Assam",
+    "state4":"Bihar",
+    "state5":"Himachal Pradesh",
+    "state6":"Karnataka",
+    "state7":"Kerla",
+    "state8":"Maharastra",
+    "state9":"Goa",
+    "state10":"Rajeshthan",
+    "state11":"Delhi",
+    "state12":"Hariyana",
+    "state13":"Panjab",
+    "state14":"Meghalay"
+
+  },
+  "minutes": {
+    "mini1": "2 Minutes",
+    "mini2": "5 Minutes",
+    "mini3": "10 Minutes",
+    "mini4": "More Then 20 Minutes"
+  },
+  "askQue": {
+    "heading":"Frequently Asked Questions",
+    "title1": "How can App help me?",
+    "title2":"How Old do i have to be to register on app?",
+    "title3": "How Old do i have to be to register on app?",
+    "desc": "Lorem ipsum is simply dummy text of the printing and typesting industry.Larem ipsum has been th eindustry standard dummy taxt ever since the 1500s,when an unknown printer took a galley of survived not only five centuries,but also the leap into electronic .",
+    "title4": "How can App help me?",
+    "title5": "How Old do i have to be to register on app?"
+  },
+  "contactSupport": {
+    "heading": "Contact Support",
+    "hintText1": "Select a help Category",
+    "hintText2":"Type A Message....",
+    "button:": "SUBMIT"
 
   }
 }

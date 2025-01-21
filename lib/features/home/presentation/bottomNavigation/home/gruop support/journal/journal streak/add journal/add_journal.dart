@@ -33,7 +33,7 @@ class AddJournal extends StatelessWidget{
                   children: [
                     SizedBox(height:50,),
                     /// title textfield
-                CoustomTextField(controller:decController, text:"Journal Title", textInputType:TextInputType.text,color:Colors.white,),
+                CoustomTextField(controller:decController, text:tr("addJournal.hitText1"), textInputType:TextInputType.text,color:Colors.white,),
                     SizedBox(height: 10,),
                     /// desc textfield
                     Padding(
@@ -49,7 +49,7 @@ class AddJournal extends StatelessWidget{
                               decoration:InputDecoration(
                                 border: InputBorder.none,
                                 hintMaxLines:10,
-                                hintText:'Take a moment to reflection.Jot down your thoughts,emotions,and experiences from the day.',
+                                hintText:tr("addJournal.hitText2"),
 
                               ),
                             ),

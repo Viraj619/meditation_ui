@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:new_flutter_project/core/utils/helpers.dart';
@@ -12,7 +13,7 @@ class ContactSupport extends StatelessWidget{
         leading:IconButton(onPressed:(){
           Navigator.pop(context);
         }, icon: Icon(Icons.arrow_back_ios_rounded)),
-        title:Text("Contact Support",style:mTextStyle16(),),
+        title:Text(tr("contactSupport.heading"),style:mTextStyle16(),),
         centerTitle:true,
       ),
       body: Column(
@@ -36,7 +37,7 @@ class ContactSupport extends StatelessWidget{
                         child: Center(
                           child: DropdownMenu(dropdownMenuEntries:Resource.categoryList.map((e)=>DropdownMenuEntry(value:e, label:e)).toList(),onSelected:(value){
                             print(value);
-                          },hintText:"Select a help Category",width:250.0,inputDecorationTheme:InputDecorationTheme(
+                          },hintText:tr("contactSupport.hintText1"),width:250.0,inputDecorationTheme:InputDecorationTheme(
                               border:InputBorder.none
                           ),),
                         ),
@@ -48,7 +49,7 @@ class ContactSupport extends StatelessWidget{
                           maxLines:4,
                           decoration:InputDecoration(
                             border:InputBorder.none,
-                            hintText:"Type A Message....",
+                            hintText:tr("contactSupport.hintText2"),
                           ),
                         ),
                       )),
@@ -59,7 +60,7 @@ class ContactSupport extends StatelessWidget{
                       alignment:Alignment.bottomCenter,
                       child: Padding(
                         padding: const EdgeInsets.only(bottom:40),
-                        child: TextButton(onPressed:(){},style:TextButton.styleFrom(minimumSize:Size(200, 40),backgroundColor:Color(0xfff3BA6EA)),child:Text("SUBMIT",style:mTextStyle14(mFontColors:Colors.white),)),
+                        child: TextButton(onPressed:(){},style:TextButton.styleFrom(minimumSize:Size(200, 40),backgroundColor:Color(0xfff3BA6EA)),child:Text(tr("contactSupport.button"),style:mTextStyle14(mFontColors:Colors.white),)),
                       ))
                 ],
               ),

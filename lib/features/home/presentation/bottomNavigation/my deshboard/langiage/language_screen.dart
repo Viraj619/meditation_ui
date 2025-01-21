@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:new_flutter_project/core/utils/helpers.dart';
 import 'package:new_flutter_project/core/utils/resources.dart';
@@ -12,7 +13,7 @@ class LanguageScreen extends StatelessWidget{
         leading:IconButton(onPressed:(){
           Navigator.pop(context);
         }, icon: Icon(Icons.arrow_back_ios_rounded)),
-        title:Text("Language",style:mTextStyle16(),),
+        title:Text(tr("language.heading"),style:mTextStyle16(),),
         centerTitle:true,
       ),
       body: Column(
@@ -28,6 +29,7 @@ class LanguageScreen extends StatelessWidget{
                       child: InkWell(
                           onTap:(){
                             currentIndex=index;
+                            localization(index, context);
                             setState((){});
                           },
                           child: CoustomContainer(border:Border.all(color:currentIndex==index?Color(0xfff3BA6EA):Color(0xfffEAF2F8)),color:Color(0xfffEAF2F8),width:300.0, height:50.0, child:Center(child:Text("${Resource.languageList[index]}"),))),
@@ -39,5 +41,12 @@ class LanguageScreen extends StatelessWidget{
         ],
       ),
     );
+  }
+  void localization(int index,BuildContext context){
+    if(index==0){
+      context.locale=Locale('en');
+    }else if(index==1){
+      context.locale = Locale('hi');
+    }
   }
 }

@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
@@ -26,7 +27,7 @@ class _ChartHistoryState extends State<ChartHistory> with SingleTickerProviderSt
     return Scaffold(
       appBar:AppBar(
         leading:IconButton(onPressed:(){},icon:Icon(Icons.arrow_back_ios_sharp),),
-        title:Text("Journal",style: mTextStyle16(),),
+        title:Text(tr("chatHistory.heading"),style: mTextStyle16(),),
         centerTitle:true,
       ),
       body:Column(
@@ -34,8 +35,8 @@ class _ChartHistoryState extends State<ChartHistory> with SingleTickerProviderSt
           Row(
             mainAxisAlignment:MainAxisAlignment.spaceAround,
             children: [
-            Text("From"),
-            Text("To"),
+            Text(tr("chatHistory.from")),
+            Text(tr("chatHistory.to")),
           ],),
           SizedBox(height:10,),
           /// date picker
@@ -68,9 +69,9 @@ class _ChartHistoryState extends State<ChartHistory> with SingleTickerProviderSt
 
                   ),
                   tabs: [
-                    Tab(text:"Feel Better in 15",),
-                    Tab(text:'Therapy Over Text',),
-                    Tab(text:"Tide Over Together")
+                    Tab(text:tr("chatHistory.title1"),),
+                    Tab(text:tr("chatHistory.title2"),),
+                    Tab(text:tr("chatHistory.title3"))
                   ],)),
           ),
           /// tab view
@@ -79,7 +80,7 @@ class _ChartHistoryState extends State<ChartHistory> with SingleTickerProviderSt
                 controller:tabController,
                 children:[
               /// feel better in 15 tab view
-              Center(child: Text("No Records Found",style:mTextStyle16(),)),
+              Center(child: Text(tr("chatHistory.dec1"),style:mTextStyle16(),)),
               /// therapy over text tab
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal:10,vertical:10),
@@ -91,19 +92,19 @@ class _ChartHistoryState extends State<ChartHistory> with SingleTickerProviderSt
                       child: Column(
                         crossAxisAlignment:CrossAxisAlignment.start,
                         children: [
-                        Text("Therapy Over Text",style:mTextStyle16(mFontColors:Color(0xfff3BA6EA)),),
+                        Text(tr("chatHistory.dec2"),style:mTextStyle16(mFontColors:Color(0xfff3BA6EA)),),
                         SizedBox(height:10,),
-                        Text("Date",style:mTextStyle14(),),
+                        Text(tr("chatHistory.date"),style:mTextStyle14(),),
                         SizedBox(height:10,),
-                        Text("December 13,2024"),
-                        Text("12:00 Am-02:00 Am")
+                        Text(tr("chatHistory.month")),
+                        Text(tr("chatHistory.time"))
                       ],),
                     )),
                   ],
                 ),
               ),
               /// Tide Over together tab
-              Center(child: Text("No Records found",style:mTextStyle16(),))
+              Center(child: Text(tr("chatHistory.dec1"),style:mTextStyle16(),))
 
             ]),
           )

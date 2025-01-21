@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:new_flutter_project/core/utils/helpers.dart';
 import 'package:new_flutter_project/core/utils/resources.dart';
@@ -11,7 +12,7 @@ class ChooseStates extends StatelessWidget{
         leading:IconButton(onPressed: (){
           Navigator.pop(context);
         }, icon: Icon(Icons.arrow_back_ios_new_sharp)),
-        title:Text("Choose Your State",style:mTextStyle16(),),
+        title:Text(tr("selectState.heading"),style:mTextStyle16(),),
         centerTitle:true,
       ),
       body:Column(
@@ -29,7 +30,7 @@ class ChooseStates extends StatelessWidget{
               child: Center(
                 child: DropdownMenu(dropdownMenuEntries:Resource.stateList.map((e)=>DropdownMenuEntry(value:e, label:e)).toList(),onSelected:(value){
                  print(value);
-                },hintText:"Select a State",inputDecorationTheme:InputDecorationTheme(
+                },hintText:tr("selectState.hintText"),inputDecorationTheme:InputDecorationTheme(
                   border:InputBorder.none
                 ),),
               ),
@@ -38,7 +39,7 @@ class ChooseStates extends StatelessWidget{
           SizedBox(height: 10,),
           Padding(
             padding: const EdgeInsets.only(bottom: 50),
-            child: CoustomButton(width: 300.0, height: 40.0,color: Color(0xfff3BA6EA),child:TextButton(onPressed:(){}, child:Text("SUBMIT",style: mTextStyle16(mFontColors: Colors.white),))),
+            child: CoustomButton(width: 300.0, height: 40.0,color: Color(0xfff3BA6EA),child:TextButton(onPressed:(){}, child:Text(tr("selectState.button"),style: mTextStyle16(mFontColors: Colors.white),))),
           )
         ],
       ),

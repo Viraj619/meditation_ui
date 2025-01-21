@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:new_flutter_project/core/utils/helpers.dart';
 import 'package:new_flutter_project/core/utils/resources.dart';
@@ -17,7 +18,7 @@ class Dashboard extends StatelessWidget{
         leading:IconButton(onPressed: (){
           Navigator.pop(context);
         }, icon: Icon(Icons.arrow_back_ios_new_outlined)),
-        title:Text("Dashboard",style: mTextStyle16(),),
+        title:Text(tr("dashboard.heading"),style: mTextStyle16(),),
         centerTitle:true,
       ),
       body: ListView.builder(

@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:new_flutter_project/core/utils/helpers.dart';
 import 'package:new_flutter_project/features/login%20and%20sign%20up/widgets/widgets.dart';
@@ -10,7 +11,7 @@ class FrequentlyAskesQuestions extends StatelessWidget{
         leading:IconButton(onPressed:(){
           Navigator.pop(context);
         }, icon: Icon(Icons.arrow_back_ios_rounded)),
-        title:Text("Frequently Asked Questions",style:mTextStyle16(),),
+        title:Text(tr("askQue.heading"),style:mTextStyle16(),),
         centerTitle:true,
       ),
       body:Column(
@@ -20,7 +21,7 @@ class FrequentlyAskesQuestions extends StatelessWidget{
             child: CoustomContainer(color:Color(0xfffEAF2F8),width:320.0, height:50.0, child:Row(
               mainAxisAlignment:MainAxisAlignment.spaceAround,
               children: [
-                SizedBox(width:200,child: Text("How can App help me?")),
+                SizedBox(width:200,child: Text(tr("askQue.title1"))),
                 Icon(Icons.arrow_drop_down_sharp),
               ],
             )),
@@ -30,7 +31,7 @@ class FrequentlyAskesQuestions extends StatelessWidget{
             child: CoustomContainer(color:Color(0xfffEAF2F8),width:300.0, height:50.0, child:Row(
               mainAxisAlignment:MainAxisAlignment.spaceAround,
               children: [
-                SizedBox(width:200,child: Text("How Old do i have to be to register on app?")),
+                SizedBox(width:200,child: Text(tr("askQue.title2"))),
                 Icon(Icons.arrow_drop_down_sharp),
               ],
             )),
@@ -44,12 +45,12 @@ class FrequentlyAskesQuestions extends StatelessWidget{
                   Row(
                     mainAxisAlignment:MainAxisAlignment.spaceAround,
                     children: [
-                      SizedBox(width:200,child: Text("How Old do i have to be to register on app?")),
+                      SizedBox(width:200,child: Text(tr("askQue.title3"))),
                       Icon(Icons.arrow_drop_down_sharp),
                     ],
                   ),
                   SizedBox(height:10,),
-                  Text("Lorem ipsum is simply dummy text of the printing and typesting industry.Larem ipsum has been th eindustry standard dummy taxt ever since the 1500s,when an unknown printer took a galley of survived not only five centuries,but also the leap into electronic .")
+                  Text(tr("askQue.desc"))
                 ],
               ),
             )),
@@ -59,7 +60,7 @@ class FrequentlyAskesQuestions extends StatelessWidget{
             child: CoustomContainer(color:Color(0xfffEAF2F8),width:300.0, height:50.0, child:Row(
               mainAxisAlignment:MainAxisAlignment.spaceAround,
               children: [
-                SizedBox(width:200,child: Text("How can App help me?")),
+                SizedBox(width:200,child: Text(tr("askQue.title4"))),
                 Icon(Icons.arrow_drop_down_sharp),
               ],
             )),
@@ -69,7 +70,7 @@ class FrequentlyAskesQuestions extends StatelessWidget{
             child: CoustomContainer(color:Color(0xfffEAF2F8),width:300.0, height:50.0, child:Row(
               mainAxisAlignment:MainAxisAlignment.spaceAround,
               children: [
-                SizedBox(width:200,child: Text("How Old do i have to be to register on app?")),
+                SizedBox(width:200,child: Text(tr("askQue.title5title5"))),
                 Icon(Icons.arrow_drop_down_sharp),
               ],
             )),

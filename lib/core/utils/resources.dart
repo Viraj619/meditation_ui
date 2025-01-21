@@ -312,33 +312,32 @@ static List<Map<String,dynamic>> resourcehub=[
 ];
 /// states list
 static List<String>stateList=[
-  'Andhra Pradesh',
-  'Arunachal Pradesh',
-  'Assam',
-  'Bihar',
-  'Himachal Pradesh',
-  'Karnataka',
-  'Kerla',
-  'Maharastra',
-  'Maharastra',
-  'Maharastra',
-  'Maharastra',
-  'Maharastra',
-  'Maharastra',
-  'Maharastra',
-  'Maharastra',
+  tr("state.state1"),
+  tr("state.state2"),
+  tr("state.state3"),
+  tr("state.state4"),
+  tr("state.state5"),
+  tr("state.state6"),
+  tr("state.state7"),
+  tr("state.state8"),
+  tr("state.state9"),
+  tr("state.state10"),
+  tr("state.state11"),
+  tr("state.state12"),
+  tr("state.state13"),
+  tr("state.state14"),
 ];
 /// language list
 static List<String>languageList=[
-  'English',
-  'Hindi',
-  'Gujrati',
-  'Bengali',
-  'French',
-  'Marathi',
-  'Spanish',
-  'Tamil',
-  'Telugu',
+  tr("language.lan1"),
+  tr("language.lan2"),
+  tr("language.lan3"),
+  tr("language.lan4"),
+  tr("language.lan5"),
+  tr("language.lan6"),
+  tr("language.lan7"),
+  tr("language.lan8"),
+  tr("language.lan9"),
 ];
 /// category list
 static List<String>categoryList=[
@@ -402,16 +401,16 @@ static List<Map<String,dynamic>> choiceList=[
 ///  minutes list
  static List<Map<String,dynamic>> minutesList=[
    {
-     'title':'2 Minutes',
+     'title':tr("minutes.mini1"),
    },
    {
-     'title':'5 Minutes',
+     'title':tr("minutes.mini2"),
    },
    {
-     'title':'10 Minutes',
+     'title':tr("minutes.mini3"),
    },
    {
-     'title':'More Than 20 Minutes',
+     'title':tr("minutes.mini3"),
    },
 
  ];
@@ -520,27 +519,27 @@ static List<Map<String,dynamic>>calenderList=[
 static List<Map<String,dynamic>> dashbordList=[
   {
     'icon':'assert/desboard/profile_ic_.png',
-    'title':'My Profile'
+    'title':tr("dashboard.title1")
   },
   {
     'icon':'assert/desboard/message_ic.png',
-    'title':'Message Center'
+    'title':tr("dashboard.title2")
   },
   {
     'icon':'assert/desboard/language_ic.png',
-    'title':'Language'
+    'title':tr("dashboard.title3")
   },
   {
     'icon':'assert/desboard/privacy_ic.png',
-    'title':'Privacy Policy'
+    'title':tr("dashboard.title4")
   },
   {
     'icon':'assert/desboard/frequently_ic.png',
-    'title':'Frequently Asked Questions'
+    'title':tr("dashboard.title5")
   },
   {
     'icon':'assert/desboard/contact_ic.png',
-    'title':'Contact Support'
+    'title':tr("dashboard.title6")
   },
 ];
 }
