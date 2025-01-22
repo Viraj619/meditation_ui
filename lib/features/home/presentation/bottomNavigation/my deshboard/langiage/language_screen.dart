@@ -47,6 +47,12 @@ class LanguageScreen extends StatelessWidget{
       context.locale=Locale('en');
     }else if(index==1){
       context.locale = Locale('hi');
+    }else if(index==2){
+      context.locale=Locale('gu');
+    }else if(index==3){
+      context.locale=Locale('bn');
+    }else if(index==4){
+      context.locale=Locale('fr');
     }
   }
 }

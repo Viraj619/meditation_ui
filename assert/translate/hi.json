@@ -401,6 +401,10 @@
     "hintText1": "सहायता श्रेणी चुनें",
     "hintText2":"संदेश टाइप करें....",
     "button:": "जमा करना"
-
+  },
+  "bottomNavigation": {
+    "home": "घर",
+    "chatHistory": "चैट का इतिहास",
+    "MyDashboard": "मेरे यंत्र रखने की जगह"
   }
 }

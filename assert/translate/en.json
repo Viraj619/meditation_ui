@@ -352,7 +352,7 @@
   "editProfile": {
     "heading": "Edit Profile",
     "editName": "Enter Your name",
-    "language":"Select a State",
+    "language":"Select a language",
     "state": "Select a State"
   },
   "messageCenter": {
@@ -408,6 +408,10 @@
     "hintText1": "Select a help Category",
     "hintText2":"Type A Message....",
     "button:": "SUBMIT"
-
+  },
+  "bottomNavigation": {
+    "home": "Home",
+    "chatHistory": "Chat History",
+    "MyDashboard": "My Dashboard"
   }
 }

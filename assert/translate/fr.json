@@ -1,0 +1,417 @@
+{
+
+  "authPage": {
+    "signUP": "S'INSCRIRE",
+    "logIN": "SE CONNECTER"
+  },
+
+  "authPage2": {
+    "yourE-Mail": "Votre e-mail",
+    "hintE-MailText": "Entrez votre e-mail",
+    "passWord": "Mot de passe",
+    "hintPassWordText":"Entrez votre mot de passe",
+    "forgotPassWord": "Mot de passe oublié",
+    "logInWith":"Notre connexion avec",
+    "next":"SUIVANTE"
+  },
+
+  "homeScreen":{
+    "homeHeading":"Santé et bien-être",
+    "titleText1":"Aide personnelle",
+    "descText1": "Méditation,Respiration,Technique,Journaliste",
+    "titleText2": "Thérapie par texte",
+    "descText2": "Thérapie par chat asynchrone avec votre guide personnel",
+    "group":"Soutien de groupe"
+  },
+
+  "groupSupport": {
+    "title1":"Ton histoire et la mienne",
+    "desc1": "Partagez votre expérience avec votre partenaire.",
+    "title2":"Centre de ressources",
+    "desc2":"Articles d'auto-assistance et centres de ressources.",
+    "title3": "Journal",
+    "desc3": "Commencez votre voyage de croissance, capturez des moments, réfléchissez à vos pensées."
+  },
+
+  "selfResources": {
+    "heading": "Ressources d'auto-assistance",
+    "title1": "Méditation",
+    "desc1":"Vous donne un sentiment de calme, de paix et d'équilibre",
+    "title2": "Respiration guidée",
+    "desc2": "Favorise une respiration et un contrôle de la respiration efficaces et sains.",
+    "title3": "Musique apaisante",
+    "desc3": "Musique pour aider à évacuer le stress et à détendre votre esprit",
+    "title4": "Musique pour la relaxation et le sommeil",
+    "desc4": "Des mélodies pour vous aider à vous détendre et à vous endormir"
+  },
+
+  "meditation":{
+    "heading": "Méditation",
+    "title1": "5 minutes de méditation",
+    "desc1": "Vous donne un sentiment de calme, de paix et d’équilibre.",
+    "title2": "Musique de méditation",
+    "desc2": "Favorise une respiration et un contrôle de la respiration efficaces et sains",
+    "title3": "Relaxation profonde",
+    "desc3": "Musique pour aider à libérer le stress et détendre votre esprit.",
+    "title4": "Méditation pour se concentrer",
+    "desc4": "Des mélodies pour vous aider à vous détendre et à vous endormir."
+  },
+
+  "videoTrack": {
+    "heading": "Choisissez une piste vidéo",
+    "title":"5 minutes simples",
+    "desc":"Routine de méditation pour améliorer la relaxation et l'optimisme"
+  },
+
+  "musicTracker": {
+    "heading": "Choisissez une piste musicale",
+    "title":"5 minutes simples",
+    "desc":"Routine de méditation pour améliorer la relaxation et l'optimisme."
+  },
+
+  "therapyOverText": {
+    "heading":"Thérapie par texte",
+    "hintText":"Tapez un message......",
+    "buttonText":"ENVOYER"
+  },
+
+  "yourStoryAndMine": {
+    "heading":"Ton histoire et la mienne",
+    "title1": "Gracie.m",
+    "subtitle1": "Parfois",
+    "days1": "Il y a 3 semaines",
+    "poem1": "poème (1 minute de lecture)",
+    "des1": "Lorem ipsum est simplement un texte factice de l'industrie de l'impression et de la composition. Le Lorem ipsum est le texte factice standard de l'industrie depuis les années 1500, lorsqu'un imprimeur inconnu a pris une galerie de caractères et les a mélangés pour créer un livre de spécimens de caractères. Il a survécu non seulement à cinq siècles, mais aussi au saut vers la composition électronique, restant essentiellement.",
+
+    "title2": "Impuissance",
+    "subtitle2": "La vie ces derniers temps a été une véritable montagne russe",
+    "days2": "Il y a 3 semaines",
+    "poem2": "Expériences (1 minute de lecture)",
+    "des2": "Lorem ipsum est simplement un texte factice de l'industrie de l'impression et de la composition. Le Lorem ipsum est le texte factice standard de l'industrie depuis les années 1500, lorsqu'un imprimeur inconnu a pris une galerie de caractères et les a mélangés pour créer un livre de spécimens de caractères. Il a survécu non seulement à cinq siècles, mais aussi au saut vers la composition électronique, restant essentiellement.",
+
+    "title3": "Gracie.m",
+    "subtitle3": "Parfois",
+    "days3": "Il y a 3 semaines",
+    "poem3": "poème (1 minute de lecture)",
+    "des3": "Lorem ipsum est simplement un texte factice de l'industrie de l'impression et de la composition. Le Lorem ipsum est le texte factice standard de l'industrie depuis les années 1500, lorsqu'un imprimeur inconnu a pris une galerie de caractères et les a mélangés pour créer un livre de spécimens de caractères. Il a survécu non seulement à cinq siècles, mais aussi au saut vers la composition électronique, restant essentiellement.",
+
+    "title4": "Gracie.m",
+    "subtitle4": "Parfois",
+    "days4": "Il y a 3 semaines",
+    "poem4": "poème (1 minute de lecture)",
+    "des4": "Lorem ipsum est simplement un texte factice de l'industrie de l'impression et de la composition. Le Lorem ipsum est le texte factice standard de l'industrie depuis les années 1500, lorsqu'un imprimeur inconnu a pris une galerie de caractères et les a mélangés pour créer un livre de spécimens de caractères. Il a survécu non seulement à cinq siècles, mais aussi au saut vers la composition électronique, restant essentiellement."
+  },
+
+  "resourceHub": {
+    "heading": "Centre de ressources",
+    "title1": "Bibliothèque / Articles",
+    "dec1": "Articles sur la santé mentale",
+
+    "title2": "Centres de ressources",
+    "dec2": "Coordonnées des prestataires de services"
+  },
+  "selectState": {
+    "heading":"Choisissez votre état",
+    "hintText":"Sélectionnez un État",
+    "button":"SOUMETTRE"
+  },
+  "library": {
+    "heading": "Bibliothèque",
+    "headingDetail": "Bibliothèque",
+    "mainTitle1": "Collège",
+    "subTitle1": "Profitez de la vie universitaire comme un pro",
+    "desc1": "Conseils à garder à l'esprit pour relever le défi de la vie universitaire",
+    "subTitle2": "9 conseils pour réussir à l'université",
+    "desc2": "9 conseils pour vous aider à atteindre vos objectifs et des conseils supplémentaires pour les personnes.",
+    "subTitle3": "Les 10 meilleurs conseils d'étude",
+    "desc3": "Conseils pour tirer le meilleur parti de vos études",
+    "subTitle4": "Comment étudier à la maison",
+    "desc4": "Conseils à garder à l'esprit pour relever le défi de la vie universitaire",
+    "subTitle5": "Profitez de la vie universitaire comme un pro",
+    "desc5": "Conseils à garder à l'esprit pour relever le défi de la vie universitaire",
+    "subTitle6": "Profitez de la vie universitaire comme un pro",
+    "desc6": "Conseils à garder à l'esprit pour relever le défi de la vie universitaire",
+    "subTitle7": "Profitez de la vie universitaire comme un pro",
+    "desc7": "Conseils à garder à l'esprit pour relever le défi de la vie universitaire",
+    "subTitle8": "Profitez de la vie universitaire comme un pro",
+    "desc8": "Conseils à garder à l'esprit pour relever le défi de la vie universitaire",
+    "subTitle9": "Profitez de la vie universitaire comme un pro",
+    "desc9": "Conseils à garder à l'esprit pour relever le défi de la vie universitaire",
+
+    "mainTitle2": "Travail",
+    "subTitle10": "Profitez de la vie universitaire comme un pro",
+    "desc10": "Conseils à garder à l'esprit pour relever le défi de la vie universitaire",
+    "subTitle11": "9 conseils pour réussir à l'université",
+    "desc11": "9 conseils pour vous aider à atteindre vos objectifs et des conseils supplémentaires pour les personnes",
+    "subTitle12": "Les 10 meilleurs conseils d'étude",
+    "desc12": "Conseils pour tirer le meilleur parti de vos études",
+    "subTitle13": "Comment étudier à la maison",
+    "desc13": "Conseils à garder à l'esprit pour relever le défi de la vie universitaire",
+    "subTitle14": "Profitez de la vie universitaire comme un pro",
+    "desc14": "Conseils à garder à l'esprit pour relever le défi de la vie universitaire",
+    "subTitle15": "Profitez de la vie universitaire comme un pro",
+    "desc15": "Conseils à garder à l'esprit pour relever le défi de la vie universitaire",
+    "subTitle16": "Profitez de la vie universitaire comme un pro",
+    "desc16": "Conseils à garder à l'esprit pour relever le défi de la vie universitaire",
+    "subTitle17": "Profitez de la vie universitaire comme un pro",
+    "desc17": "Conseils à garder à l'esprit pour relever le défi de la vie universitaire",
+    "subTitle18": "Profitez de la vie universitaire comme un pro",
+    "desc18": "Conseils à garder à l'esprit pour relever le défi de la vie universitaire",
+
+
+
+    "mainTitle3": "Relation",
+    "subTitle19": "Profitez de la vie universitaire comme un pro",
+    "desc19": "Conseils à garder à l'esprit pour relever le défi de la vie universitaire",
+    "subTitle20": "9 conseils pour réussir à l'université",
+    "desc20": "9 conseils pour vous aider à atteindre vos objectifs et des conseils supplémentaires pour les personnes.",
+    "subTitle21": "Les 10 meilleurs conseils d'étude",
+    "desc21": "TConseils pour tirer le meilleur parti de vos études",
+    "subTitle22": "Comment étudier à la maison",
+    "desc22": "Conseils à garder à l'esprit pour relever le défi de la vie universitaire",
+    "subTitle23": "Profitez de la vie universitaire comme un pro",
+    "desc23": "Conseils à garder à l'esprit pour relever le défi de la vie universitaire",
+    "subTitle24": "Profitez de la vie universitaire comme un pro",
+    "desc24": "Conseils à garder à l'esprit pour relever le défi de la vie universitaire",
+    "subTitle25": "Profitez de la vie universitaire comme un pro",
+    "desc25": "Conseils à garder à l'esprit pour relever le défi de la vie universitaire",
+    "subTitle26": "Profitez de la vie universitaire comme un pro",
+    "desc26": "Conseils à garder à l'esprit pour relever le défi de la vie universitaire",
+    "subTitle27": "Profitez de la vie universitaire comme un pro",
+    "desc27": "Conseils à garder à l'esprit pour relever le défi de la vie universitaire",
+
+    "mainTitle4": "Croissance personnelle",
+    "subTitle28": "Profitez de la vie universitaire comme un pro",
+    "desc28": "Conseils à garder à l'esprit pour relever le défi de la vie universitaire",
+    "subTitle29": "9 conseils pour réussir à l'université",
+    "desc29": "9 conseils pour vous aider à atteindre vos objectifs et des conseils supplémentaires pour les personnes.",
+    "subTitle30": "Les 10 meilleurs conseils d'étude",
+    "desc30": "Conseils pour tirer le meilleur parti de vos études",
+    "subTitle31": "Comment étudier à la maison",
+    "desc31": "Conseils à garder à l'esprit pour relever le défi de la vie universitaire",
+    "subTitle32": "Profitez de la vie universitaire comme un pro",
+    "desc32": "Conseils à garder à l'esprit pour relever le défi de la vie universitaire",
+    "subTitle33": "Profitez de la vie universitaire comme un pro",
+    "desc33": "Conseils à garder à l'esprit pour relever le défi de la vie universitaire",
+    "subTitle34": "Profitez de la vie universitaire comme un pro",
+    "desc34": "Conseils à garder à l'esprit pour relever le défi de la vie universitaire",
+    "subTitle35": "Profitez de la vie universitaire comme un pro",
+    "desc35": "Conseils à garder à l'esprit pour relever le défi de la vie universitaire",
+    "subTitle36": "Profitez de la vie universitaire comme un pro",
+    "desc36": "Conseils à garder à l'esprit pour relever le défi de la vie universitaire",
+
+
+    "mainTitle5": "Croissance personnelle",
+    "subTitle37": "Profitez de la vie universitaire comme un pro",
+    "desc37": "Conseils à garder à l'esprit pour relever le défi de la vie universitaire",
+    "subTitle38": "9 conseils pour réussir à l'université",
+    "desc38": "9 conseils pour vous aider à atteindre vos objectifs et des conseils supplémentaires pour les personnes.",
+    "subTitle39": "Les 10 meilleurs conseils d'étude",
+    "desc39": "Conseils pour tirer le meilleur parti de vos études",
+    "subTitle40": "Comment étudier à la maison",
+    "desc40": "Conseils à garder à l'esprit pour relever le défi de la vie universitaire",
+    "subTitle41": "Profitez de la vie universitaire comme un pro",
+    "desc41": "Conseils à garder à l'esprit pour relever le défi de la vie universitaire",
+    "subTitle42": "Profitez de la vie universitaire comme un pro",
+    "desc42": "Conseils à garder à l'esprit pour relever le défi de la vie universitaire",
+    "subTitle43": "Profitez de la vie universitaire comme un pro",
+    "desc43": "Conseils à garder à l'esprit pour relever le défi de la vie universitaire",
+    "subTitle44": "Profitez de la vie universitaire comme un pro",
+    "desc44": "Conseils à garder à l'esprit pour relever le défi de la vie universitaire",
+    "subTitle45": "Profitez de la vie universitaire comme un pro",
+    "desc45": "Conseils à garder à l'esprit pour relever le défi de la vie universitaire"
+  },
+
+  "journal": {
+    "heading": "Journal",
+    "title1": "Votre séquence de journal",
+    "title2": "Votre humeur cette semaine",
+    "title3": "Progrès vers l'objectif",
+    "menu1": "Nouvelle entrée de journal",
+    "menu2": "Suivi de l'humeur",
+    "menu3": "Suivi des habitudes/objectifs",
+    "menu4": "Suivi de l'anxiété"
+  },
+
+  "addJournal": {
+    "heading": "Journal",
+    "date": "14 décembre 2024",
+    "month": "Déc",
+
+    "date1": "1",
+    "day1": "lundi",
+
+    "date2": "2",
+    "day2": "Mardi",
+
+    "date3": "3",
+    "day3": "Mercredi",
+
+    "date4": "4",
+    "day4": "Jeudi",
+
+    "date5": "5",
+    "day5": "amie",
+
+    "date6": "6",
+    "day6": "Samedi",
+
+    "date7": "7",
+    "day": "dimanche",
+
+    "title": "Mes journaux",
+    "subTitle": "Votre réflexion personnelle.cryptée et sécurisée",
+    "dec": "Aucun enregistrement trouvé",
+    "button": "Ajouter un journal",
+    "submit": "soumettre",
+
+    "headingAdd": "Ajouter un journal",
+    "hitText1": "Titre de la revue",
+    "hitText2": "Prenez un moment pour réfléchir. Notez nos pensées, nos émotions et nos expériences de la journée."
+  },
+
+  "moodTracker": {
+    "heading": "Suivi de l'humeur",
+    "title": "Comment vous sentez-vous aujourd'hui ?",
+    "moods1": "Bien",
+    "moods2": "Heureuse",
+    "moods3": "Moi",
+    "moods4": "Triste",
+    "moods5": "En colère",
+    "moods6": "Anxieuse",
+    "Calender": "Calendrier des émotions",
+    "message": "Entrée d'humeur mise à jour avec succès !"
+
+  },
+
+  "goalTracker": {
+    "heading": "Suivi des objectifs",
+    "date": "2024 14 décembre",
+    "level":"Augmentez vos objectifs",
+    "title": "Objectifs atteints aujourd'hui !",
+    "title1": "Objectifs d'aujourd'hui",
+    "subTitle":"Aucune entrée trouvée pour la date sélectionnée.Ajoutez un nouvel objectif.",
+    "title2":"Créer un nouvel objectif",
+    "hintText":"Nom de l'objectif",
+    "hintText2":"Sélectionnez les minutes",
+    "button1": "CRÉER NOUVEAU",
+    "button2": "Ajouter un objectif"
+  },
+
+  "anxietyTracker": {
+    "heading":"Suivi de l'anxiété",
+    "date": "14 décembre 2024",
+    "title":"Journaux d'anxiété",
+    "subTitle": "Votre réflexion personnelle.cryptée et sécurisée",
+    "record": "Aucun Enregistrement trouvé",
+    "button": "NOUVEAU RECORD"
+  },
+
+  "newRecord": {
+    "heading": "Suivi de l'anxiété",
+    "date": "16 décembre 2024",
+    "hintText1": "ce qui s'est passé",
+    "hintText2": "Mes pensées au fur et à mesure que cela s'est produit",
+    "title": "Niveau d'anxiété (1 = faible, 10 = élevé)",
+    "hintText3": "Comment ai-je fait face à cela ?",
+    "hintText4": "Qu'est-ce que je me suis dit ?",
+    "title2": "Niveau d’anxiété après l’adaptation (1 = faible, 10 = élevé)",
+    "button": "soumettre"
+  },
+  "chatHistory":{
+    "heading": "Historique des discussions",
+    "from": "depuis",
+    "to": "à",
+    "title1": "Sentez-vous mieux en 15",
+    "title2": "Thérapie par texte",
+    "title3":"Ensemble, faisons la marée haute",
+    "dec1": "Aucun enregistrement trouvé",
+    "dec2": "Thérapie par texte",
+    "date": "Date",
+    "month": "13 décembre 2024",
+    "time": "00h00-02h00"
+  },
+  "dashboard": {
+    "heading": "Tableau de bord",
+    "title1": "Mon profil",
+    "title2": "Centre de messages",
+    "title3": "Langues",
+    "title4": "politique de confidentialité",
+    "title5": "Questions fréquemment posées",
+    "title6": "Contacter le support"
+  },
+  "profile": {
+    "heading": "Mon profil",
+    "editProfile": "MODIFIER LE PROFIL",
+    "UserName": "nom d'utilisateur",
+    "age": "Âge:22 ans",
+    "Gender": "femelle",
+    "PreferredLanguage": "Langue préférée : anglais",
+    "logout": "DÉCONNEXION"
+  },
+  "editProfile": {
+    "heading": "Modifier le profil",
+    "editName": "Entrez votre nom",
+    "language":"Sélectionnez une langue",
+    "state": "Sélectionnez un État"
+  },
+  "messageCenter": {
+    "heading":"Centre de messages",
+    "title": "Aucun enregistrement trouvé"
+  },
+  "language": {
+    "heading": "langues",
+    "lan1":"anglaise",
+    "lan2":"hindi",
+    "lan3":"Gujarati",
+    "lan4":"Bengali",
+    "lan5":"French",
+    "lan6":"Marathi",
+    "lan7":"Spanish",
+    "lan8":"Tamil",
+    "lan9":"Telugu"
+  },
+  "state": {
+    "state1":"Andhra Pradesh",
+    "state2":"Arunachal Pradesh",
+    "state3":"Assam",
+    "state4":"Bihar",
+    "state5":"Himachal Pradesh",
+    "state6":"Karnataka",
+    "state7":"Kerla",
+    "state8":"Maharastra",
+    "state9":"Goa",
+    "state10":"Rajeshthan",
+    "state11":"Delhi",
+    "state12":"Hariyana",
+    "state13":"Panjab",
+    "state14":"Meghalay"
+
+  },
+  "minutes": {
+    "mini1": "2 Minutes",
+    "mini2": "5 Minutes",
+    "mini3": "10 Minutes",
+    "mini4": "Plus de 20 minutes"
+  },
+  "askQue": {
+    "heading":"Questions fréquemment posées",
+    "title1": "Comment l'application peut-elle m'aider ?",
+    "title2":"Quel âge dois-je avoir pour m'inscrire sur l'application ?",
+    "title3": "Quel âge dois-je avoir pour m'inscrire sur l'application ?",
+    "desc": "Le Lorem ipsum est simplement un texte factice employé dans l'industrie de l'impression et de la dactylographie. Le Lorem ipsum est le texte factice standard de l'industrie depuis les années 1500, lorsqu'un imprimeur inconnu a survécu non seulement à cinq siècles, mais a également fait le saut vers l'électronique.",
+    "title4": "Comment l'application peut-elle m'aider ?",
+    "title5": "Quel âge dois-je avoir pour m'inscrire sur l'application ?"
+  },
+  "contactSupport": {
+    "heading": "Contacter le support",
+    "hintText1": "Sélectionnez une catégorie d'aide",
+    "hintText2":"Tapez un message....",
+    "button:": "SOUMETTRE"
+  },
+  "bottomNavigation": {
+    "home": "Maison",
+    "chatHistory": "Historique des discussions",
+    "MyDashboard": "Mon tableau de bord"
+  }
+}

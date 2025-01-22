@@ -1,7 +1,11 @@
 import 'dart:convert';
 
 import 'package:easy_localization/easy_localization.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/painting.dart';
+import 'package:flutter/rendering.dart';
+import 'package:flutter/widgets.dart';
 import 'package:intl/intl.dart';
 import 'package:new_flutter_project/core/utils/helpers.dart';
 import 'package:new_flutter_project/core/utils/resources.dart';
@@ -104,9 +108,13 @@ class _MoodTrackerState extends State<MoodTracker> {
             child: TableCalendar(
               rowHeight: 35,
               headerStyle:
-                  HeaderStyle(formatButtonVisible: false, titleCentered: true),
+              HeaderStyle(formatButtonVisible: false, titleCentered: true),
               availableGestures: AvailableGestures.all,
 
+              calendarStyle:CalendarStyle(
+                selectedDecoration:BoxDecoration(image: DecorationImage(image: NetworkImage( Resource.moodList[currentIndex]['image'])))
+              ),
+              
               focusedDay: today,
               firstDay: DateTime.utc(2024, 10, 15),
               lastDay: DateTime.utc(2030, 3, 14),

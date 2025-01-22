@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:new_flutter_project/features/home/presentation/bottomNavigation/chart%20history/chart_history.dart';
 import 'package:new_flutter_project/features/home/presentation/bottomNavigation/home/home_screen.dart';
@@ -24,13 +25,13 @@ class _BottomNavigationState extends State<BottomNavigation> {
         destinations: [
           NavigationDestination(
               selectedIcon:Image.asset("assert/home_ic.png"),
-              icon: Icon(Icons.home), label:"Home"),
+              icon: Icon(Icons.home), label:tr("bottomNavigation.home")),
           NavigationDestination(
               selectedIcon:Image.asset("assert/message_ic.png"),
-              icon: Icon(Icons.message), label:"Chat History"),
+              icon: Icon(Icons.message), label:tr("bottomNavigation.chatHistory")),
           NavigationDestination(
               selectedIcon:Image.asset("assert/profile_ic.png"),
-              icon: Icon(Icons.account_circle), label:"My Dashboard"),
+              icon: Icon(Icons.account_circle), label:tr("bottomNavigation.MyDashboard")),
         ],
         selectedIndex:selectedIndex,
         onDestinationSelected:(value){

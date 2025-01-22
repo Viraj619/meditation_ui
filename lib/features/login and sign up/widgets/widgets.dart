@@ -63,13 +63,13 @@ class CoustomTextField extends StatelessWidget{
 
 
 class CoustomTextFormField extends StatelessWidget{
-   //String? Function(String?)validation;
+   String? Function(String?)validation;
   TextEditingController controller;
   String text;
   var textInputType;
   var color;
   var border;
-  CoustomTextFormField({required this.controller,required this.text,required this.textInputType,this.color,this.border});
+  CoustomTextFormField({required this.validation,required this.controller,required this.text,required this.textInputType,this.color,this.border});
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -83,14 +83,8 @@ class CoustomTextFormField extends StatelessWidget{
       child: Padding(
         padding: const EdgeInsets.symmetric(horizontal:10),
         child: TextFormField(
-          // validator:validation,
-          validator:(value) {
-            if(value==null || value.isEmpty){
-              return "Please fill this field";
-            }else {
-              return null;
-            }
-          },
+           validator:validation,
+
           /*onChanged:(values){
 
           },*/

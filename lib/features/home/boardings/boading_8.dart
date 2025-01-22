@@ -19,6 +19,7 @@ class Boading8 extends StatelessWidget{
     double height=MediaQuery.of(context).size.height;
     print(height);
     return Form(
+      key: formkey,
       child: SafeArea(
         child: Scaffold(
           body:SingleChildScrollView(
@@ -32,37 +33,18 @@ class Boading8 extends StatelessWidget{
                 ),
                 SizedBox(height:10,),
                 /// user textField
-                CoustomContainer(width: 300.0, height: 55.0, child:Padding(
-                  padding: const EdgeInsets.symmetric(horizontal:10),
-                  child: TextField(
-                    controller:userNameController,
-                    decoration:InputDecoration(
-                      border:InputBorder.none,
-                      hintText:"Enter UserName"
-                    ),
-                  ),
-                ), color:Color(0xfff3BA6EA).withOpacity(0.2)),
+                CoustomTextFormField(validation:(value) {
+                  if(value==null||value.isEmpty){
+                    return "Please fill this field";
+                  }
+                }, controller:userNameController, text:"Enter User Name", textInputType: TextInputType.text,color:Color(0xfff3BA6EA).withOpacity(0.1),),
                 SizedBox(height:10,),
                 /// mobile number textField
-                CoustomContainer(width: 300.0, height: 55.0, child:Padding(
-                  padding: const EdgeInsets.symmetric(horizontal:10),
-                  child: Row(
-                    children: [
-                      Text("+91",style:mTextStyle14(mFontWeight:FontWeight.normal),),
-                      SizedBox(width:5,),
-                      SizedBox(
-                        width:230,
-                        child: TextField(
-                          controller:phoneController,
-                          decoration:InputDecoration(
-                            border:InputBorder.none,
-                            hintText:"Enter Mobile Number"
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                ), color:Color(0xfff3BA6EA).withOpacity(0.2)),
+                CoustomTextFormField(validation:(value) {
+                  if(value==null || value.isEmpty){
+                    return "Please fill the field";
+                  }
+                }, controller:phoneController, text:"Enter Phone Number", textInputType: TextInputType.text,color:Color(0xfff3BA6EA).withOpacity(0.1),),
                 SizedBox(height:10,),
                 Text("Select your Gender",style:mTextStyle16(),),
                 SizedBox(height:10,),
@@ -126,11 +108,9 @@ class Boading8 extends StatelessWidget{
                 SizedBox(height:MediaQuery.of(context).size.height>784?MediaQuery.of(context).size.height*0.3:MediaQuery.of(context).size.height*0.2,),
                 /// start button
                 CoustomButton(width:300.0, height:50.0, child:TextButton(onPressed:(){
-                  if(userNameController.text.isNotEmpty&& phoneController.text.isNotEmpty) {
+                  if(formkey.currentState!.validate()){
                     Navigator.push(context, MaterialPageRoute(
                       builder: (context) => BottomNavigation(),));
-                  }else{
-                    ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text("fills the blacks!!")));
                   }
             
                 }, child:Text("LET'S START",style:mTextStyle14(mFontColors:Colors.white),)), color:Color(0xfff3BA6EA))
