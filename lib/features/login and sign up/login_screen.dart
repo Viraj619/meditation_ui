@@ -8,12 +8,11 @@ import 'package:new_flutter_project/features/login%20and%20sign%20up/widgets/wid
 class LoginScreen extends StatelessWidget{
   TextEditingController emailController=TextEditingController();
   TextEditingController passController=TextEditingController();
-  double height=0;
   GlobalKey<FormState> formkey = GlobalKey<FormState>();
   @override
   Widget build(BuildContext context) {
-    height=MediaQuery.of(context).size.height;
-    print('height is ${height}');
+    String pattern=r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$';
+    RegExp regExp =RegExp(pattern);
     return Form(
       key:formkey,
       child: SafeArea(
@@ -32,6 +31,13 @@ class LoginScreen extends StatelessWidget{
               ),
               /// email
               CoustomTextFormField(
+                validation:(value) {
+                  if(value==null || value.isEmpty){
+                    return "Please fill this field";
+                  }else if(!regExp.hasMatch(value)){
+                    return "Enter the valid email";
+                  }
+                },
                 controller:emailController,
                   textInputType:TextInputType.emailAddress,
                   text:tr("authPage2.hintE-MailText"),border:Border.all(color:Color(0xFFF407BFF).withOpacity(0.2)),),
@@ -43,6 +49,11 @@ class LoginScreen extends StatelessWidget{
               ),
               /// password
                 CoustomTextFormField(
+                  validation:(value) {
+                    if(value==null||value.isEmpty){
+                      return "Please fill this field";
+                    }
+                  },
                   controller:passController,
                   textInputType:TextInputType.visiblePassword,
                   text:tr("authPage2.hintPassWordText"),border:Border.all(color:Color(0xFFF407BFF).withOpacity(0.2)),),
@@ -89,9 +100,8 @@ class LoginScreen extends StatelessWidget{
               ),
                 /// next button
               CoustomButton(width: 300.0, height:50.0,child:TextButton(onPressed: (){
-                if(formkey.currentState!.validate()) {
-                  Navigator.pushReplacement(context,
-                      MaterialPageRoute(builder: (context) => Boarding1(),));
+                if(formkey.currentState!.validate()){
+                  Navigator.pushReplacement(context,MaterialPageRoute(builder: (context) => Boarding1(),));
                 }
               },child: Text(tr("authPage2.next"),style:mTextStyle14(mFontColors:Colors.white),),))
 
@@ -101,13 +111,4 @@ class LoginScreen extends StatelessWidget{
       ),
     );
   }
-/*  bool validation(String input){
-     String emailRegex="^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$";
-     if(RegExp(pattern).hasMatch(input)){
-       return true;
-     }else{
-       return false;
-     }
-    return true;
-  }*/
 }
